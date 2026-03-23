@@ -16,7 +16,7 @@ const SubscribeModal = ({ open, onClose }: SubscribeModalProps) => {
     if (!email.trim()) return;
 
     const formUrl =
-      "https://docs.google.com/forms/d/e/1FAIpQLSfke0IZN93-Aezkm079U3WFALj7cTdZD56vIMWOh-5QiA4amA/formResponse";
+      "https://docs.google.com/forms/d/e/1FAIpQLScABH4Ou1VNVqGj9RHuB3z0AhXKi_KmDETSEjOeAINufNHjFQ/formResponse";
 
     // Create a hidden iframe to submit the form without CORS issues
     const iframe = document.createElement("iframe");
