@@ -1,13 +1,13 @@
-// Public marketing content for EndlessXR, shared by the MCP tools.
+// Public marketing content for SpacifyU, shared by the MCP tools.
 
 export const APP_STORE_URL = "https://apps.apple.com/us/app/endlessxr/id6751106381";
-export const SITE_URL = "https://endlessxr-xrhub-platform.lovable.app";
+export const SITE_URL = "https://www.spacifyu.com";
 
 export const overview = {
-  name: "EndlessXR",
+  name: "SpacifyU",
   tagline: "Create, Share, Explore XR — All in One Place.",
   description:
-    "EndlessXR is an all-in-one short-form XR platform where you can effortlessly create and discover immersive experiences. It brings creation, editing, publishing, and discovery into one seamless headset-native ecosystem so immersive content can scale as fast as XR hardware.",
+    "SpacifyU is an all-in-one short-form XR platform where you can effortlessly create and discover immersive experiences. It brings creation, editing, publishing, and discovery into one seamless headset-native ecosystem so immersive content can scale as fast as XR hardware.",
   availability: "Now available on Apple Vision Pro",
   appStoreUrl: APP_STORE_URL,
   siteUrl: SITE_URL,

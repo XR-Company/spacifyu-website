@@ -5,7 +5,7 @@ export default defineTool({
   name: "get_app_overview",
   title: "Get app overview",
   description:
-    "Return the EndlessXR product overview: tagline, description, platform availability, core capabilities, mission, and links.",
+    "Return the SpacifyU product overview: tagline, description, platform availability, core capabilities, mission, and links.",
   inputSchema: {},
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => {

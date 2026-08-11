@@ -5,7 +5,7 @@ export default defineTool({
   name: "get_download_info",
   title: "Get download info",
   description:
-    "Return where and how to get EndlessXR: supported platform and the App Store and website links.",
+    "Return where and how to get SpacifyU: supported platform and the App Store and website links.",
   inputSchema: {},
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => {
