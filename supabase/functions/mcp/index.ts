@@ -10,11 +10,11 @@ import { defineTool } from "npm:@lovable.dev/mcp-js@0.26.2";
 
 // src/lib/mcp/content.ts
 var APP_STORE_URL = "https://apps.apple.com/us/app/endlessxr/id6751106381";
-var SITE_URL = "https://endlessxr-xrhub-platform.lovable.app";
+var SITE_URL = "https://www.spacifyu.com";
 var overview = {
-  name: "EndlessXR",
+  name: "SpacifyU",
   tagline: "Create, Share, Explore XR \u2014 All in One Place.",
-  description: "EndlessXR is an all-in-one short-form XR platform where you can effortlessly create and discover immersive experiences. It brings creation, editing, publishing, and discovery into one seamless headset-native ecosystem so immersive content can scale as fast as XR hardware.",
+  description: "SpacifyU is an all-in-one short-form XR platform where you can effortlessly create and discover immersive experiences. It brings creation, editing, publishing, and discovery into one seamless headset-native ecosystem so immersive content can scale as fast as XR hardware.",
   availability: "Now available on Apple Vision Pro",
   appStoreUrl: APP_STORE_URL,
   siteUrl: SITE_URL,
@@ -62,7 +62,7 @@ var missionBenefits = [
 var get_app_overview_default = defineTool({
   name: "get_app_overview",
   title: "Get app overview",
-  description: "Return the EndlessXR product overview: tagline, description, platform availability, core capabilities, mission, and links.",
+  description: "Return the SpacifyU product overview: tagline, description, platform availability, core capabilities, mission, and links.",
   inputSchema: {},
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => {
@@ -79,7 +79,7 @@ import { defineTool as defineTool2 } from "npm:@lovable.dev/mcp-js@0.26.2";
 var list_features_default = defineTool2({
   name: "list_features",
   title: "List product features",
-  description: "List the EndlessXR product highlights, each with a title and description.",
+  description: "List the SpacifyU product highlights, each with a title and description.",
   inputSchema: {},
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => ({
@@ -93,7 +93,7 @@ import { defineTool as defineTool3 } from "npm:@lovable.dev/mcp-js@0.26.2";
 var list_problems_default = defineTool3({
   name: "list_xr_content_gap_problems",
   title: "List XR content gap problems",
-  description: "List the industry problems EndlessXR addresses: the XR content gap, production costs, and user friction.",
+  description: "List the industry problems SpacifyU addresses: the XR content gap, production costs, and user friction.",
   inputSchema: {},
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => ({
@@ -107,7 +107,7 @@ import { defineTool as defineTool4 } from "npm:@lovable.dev/mcp-js@0.26.2";
 var get_download_info_default = defineTool4({
   name: "get_download_info",
   title: "Get download info",
-  description: "Return where and how to get EndlessXR: supported platform and the App Store and website links.",
+  description: "Return where and how to get SpacifyU: supported platform and the App Store and website links.",
   inputSchema: {},
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => {
@@ -126,10 +126,10 @@ var get_download_info_default = defineTool4({
 
 // src/lib/mcp/index.ts
 var mcp_default = defineMcp({
-  name: "endlessxr-the-future-of-xr",
-  title: "EndlessXR: The Future of XR",
+  name: "spacifyu",
+  title: "SpacifyU",
   version: "0.1.0",
-  instructions: "Public tools describing EndlessXR, a short-form XR platform for Apple Vision Pro. Use `get_app_overview` for the product summary and mission, `list_features` for product highlights, `list_xr_content_gap_problems` for the industry problems it addresses, and `get_download_info` for platform and download links. All data is public marketing content.",
+  instructions: "Public tools describing SpacifyU, a short-form XR platform for Apple Vision Pro. Use `get_app_overview` for the product summary and mission, `list_features` for product highlights, `list_xr_content_gap_problems` for the industry problems it addresses, and `get_download_info` for platform and download links. All data is public marketing content.",
   tools: [get_app_overview_default, list_features_default, list_problems_default, get_download_info_default]
 });
 

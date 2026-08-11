@@ -5,7 +5,7 @@ export default defineTool({
   name: "list_xr_content_gap_problems",
   title: "List XR content gap problems",
   description:
-    "List the industry problems EndlessXR addresses: the XR content gap, production costs, and user friction.",
+    "List the industry problems SpacifyU addresses: the XR content gap, production costs, and user friction.",
   inputSchema: {},
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => ({

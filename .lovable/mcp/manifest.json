@@ -7,15 +7,15 @@
   },
   "mcp": {
     "server": {
-      "name": "endlessxr-the-future-of-xr",
+      "name": "spacifyu",
       "version": "0.1.0",
-      "title": "EndlessXR: The Future of XR"
+      "title": "SpacifyU"
     },
     "tools": [
       {
         "name": "get_app_overview",
         "title": "Get app overview",
-        "description": "Return the EndlessXR product overview: tagline, description, platform availability, core capabilities, mission, and links.",
+        "description": "Return the SpacifyU product overview: tagline, description, platform availability, core capabilities, mission, and links.",
         "annotations": {
           "readOnlyHint": true,
           "idempotentHint": true,
@@ -31,7 +31,7 @@
       {
         "name": "list_features",
         "title": "List product features",
-        "description": "List the EndlessXR product highlights, each with a title and description.",
+        "description": "List the SpacifyU product highlights, each with a title and description.",
         "annotations": {
           "readOnlyHint": true,
           "idempotentHint": true,
@@ -47,7 +47,7 @@
       {
         "name": "list_xr_content_gap_problems",
         "title": "List XR content gap problems",
-        "description": "List the industry problems EndlessXR addresses: the XR content gap, production costs, and user friction.",
+        "description": "List the industry problems SpacifyU addresses: the XR content gap, production costs, and user friction.",
         "annotations": {
           "readOnlyHint": true,
           "idempotentHint": true,
@@ -63,7 +63,7 @@
       {
         "name": "get_download_info",
         "title": "Get download info",
-        "description": "Return where and how to get EndlessXR: supported platform and the App Store and website links.",
+        "description": "Return where and how to get SpacifyU: supported platform and the App Store and website links.",
         "annotations": {
           "readOnlyHint": true,
           "idempotentHint": true,
