@@ -31,7 +31,7 @@ const SubscribeModal = ({ open, onClose }: SubscribeModalProps) => {
 
     const input = document.createElement("input");
     input.type = "hidden";
-    input.name = "entry.690611847";
+    input.name = "entry.1931748106";
     input.value = email;
     form.appendChild(input);
 
