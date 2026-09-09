@@ -16,7 +16,7 @@ const SubscribeModal = ({ open, onClose }: SubscribeModalProps) => {
     if (!email.trim()) return;
 
     const formUrl =
-      "https://docs.google.com/forms/d/e/1FAIpQLScABH4Ou1VNVqGj9RHuB3z0AhXKi_KmDETSEjOeAINufNHjFQ/formResponse";
+      "https://docs.google.com/forms/d/e/1FAIpQLScttnCR5jJltb2aHY9L-ZQjWPE9vCovLcMdd51sn5OQU0bgSg/formResponse";
 
     // Create a hidden iframe to submit the form without CORS issues
     const iframe = document.createElement("iframe");
@@ -31,7 +31,7 @@ const SubscribeModal = ({ open, onClose }: SubscribeModalProps) => {
 
     const input = document.createElement("input");
     input.type = "hidden";
-    input.name = "entry.690611847";
+    input.name = "entry.2104316742";
     input.value = email;
     form.appendChild(input);
 
