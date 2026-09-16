@@ -30,7 +30,7 @@ const CTASection = () => {
           
           <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto mb-10">
             <div className="absolute inset-0 rounded-[2.5rem] animate-glow-pulse" style={{ boxShadow: '0 0 40px rgba(107,79,168,0.5), 0 0 80px rgba(107,79,168,0.3), 0 0 120px rgba(107,79,168,0.12)' }} />
-            <img src={appIcon} alt="Endless XR" className="relative w-full h-full rounded-[2.5rem]" />
+            <img src={spacifyuSymbol} alt="SpacifyU" className="relative w-full h-full rounded-[2.5rem]" />
           </div>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-8 tracking-[0.02em]">
             Designed to close the
