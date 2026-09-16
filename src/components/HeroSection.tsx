@@ -47,15 +47,13 @@ const HeroSection = () => {
 
         <motion.img
           alt="SpacifyU"
-          className="h-20 md:h-28 lg:h-36 w-auto max-w-[90%] object-contain mx-auto mb-4"
+          className="w-full h-auto max-w-[330px] md:max-w-[460px] lg:max-w-[590px] object-contain mx-auto mb-6 md:mb-8"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.05 }} src={spacifyuLogo} />
 
-        
-
         <motion.h1
-          className="font-display text-3xl md:text-7xl lg:text-8xl font-bold leading-tight mb-6 tracking-[0.02em]"
+          className="font-display text-[1.22rem] md:text-[2.2rem] lg:text-[2.85rem] font-semibold leading-tight mb-6 tracking-[0.02em] max-w-[330px] md:max-w-[460px] lg:max-w-[590px] mx-auto"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}>
