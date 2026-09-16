@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 import appLogo from "@/assets/logo.png";
-import spacifyuLogo from "@/assets/spacifyu-logo.png.asset.json";
+import spacifyuLogo from "@/assets/spacifyu-logo.png";
 import SubscribeModal from "@/components/SubscribeModal";
 
 
