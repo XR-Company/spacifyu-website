@@ -53,7 +53,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.05 }} src={spacifyuLogo} />
 
         <motion.h1
-          className="font-display text-[1.22rem] md:text-[2.35rem] lg:text-[3rem] font-semibold leading-tight mb-6 tracking-[0.02em] max-w-[330px] md:max-w-[460px] lg:max-w-[590px] mx-auto"
+          className="font-display text-[1.22rem] md:text-[2.2rem] lg:text-[2.85rem] font-semibold leading-tight mb-6 tracking-[0.02em] max-w-[330px] md:max-w-[460px] lg:max-w-[590px] mx-auto"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}>
