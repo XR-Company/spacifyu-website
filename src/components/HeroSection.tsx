@@ -2,7 +2,9 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 import appLogo from "@/assets/logo.png";
+import spacifyuLogo from "@/assets/spacifyu-logo.png.asset.json";
 import SubscribeModal from "@/components/SubscribeModal";
+
 
 const APP_STORE_URL = "https://apps.apple.com/us/app/endlessxr/id6751106381";
 
