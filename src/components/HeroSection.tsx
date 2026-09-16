@@ -51,7 +51,7 @@ const HeroSection = () => {
           className="h-14 md:h-[7.5rem] lg:h-[8.75rem] w-auto max-w-[90%] object-contain mx-auto mb-1"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.05 }} src={spacifyuLogo.url} />
+          transition={{ duration: 0.6, delay: 0.05 }} src={spacifyuLogo} />
 
         
 
