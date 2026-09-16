@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
-import appLogo from "@/assets/logo.png";
-import spacifyuLogo from "@/assets/spacifyu-logo.png";
+import spacifyuLogo from "@/assets/spacifyu-hero-logo.png";
 import SubscribeModal from "@/components/SubscribeModal";
 
 
@@ -48,7 +47,7 @@ const HeroSection = () => {
 
         <motion.img
           alt="SpacifyU"
-          className="h-14 md:h-[7.5rem] lg:h-[8.75rem] w-auto max-w-[90%] object-contain mx-auto mb-1"
+          className="h-20 md:h-28 lg:h-36 w-auto max-w-[90%] object-contain mx-auto mb-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.05 }} src={spacifyuLogo} />
