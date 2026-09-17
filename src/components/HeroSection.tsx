@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
-import spacifyuLogo from "@/assets/spacifyu-hero-logo.png";
+import appLogo from "@/assets/logo.png";
 import SubscribeModal from "@/components/SubscribeModal";
-
 
 const APP_STORE_URL = "https://apps.apple.com/us/app/endlessxr/id6751106381";
 
@@ -46,14 +45,16 @@ const HeroSection = () => {
         </motion.div>
 
         <motion.img
-          alt="SpacifyU"
-          className="w-full h-auto max-w-[330px] md:max-w-[460px] lg:max-w-[590px] object-contain mx-auto mb-6 md:mb-8"
+
+          alt="Endless XR"
+          className="h-14 md:h-[7.5rem] lg:h-[8.75rem] mx-auto mb-1"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.05 }} src={spacifyuLogo} />
+          transition={{ duration: 0.6, delay: 0.05 }} src="/lovable-uploads/1f79a93a-2a71-4450-a0fc-f39d97e3c4c5.png" />
+        
 
         <motion.h1
-          className="font-display text-[1.22rem] md:text-[2.2rem] lg:text-[2.85rem] font-semibold leading-tight mb-6 tracking-[0.02em] max-w-[330px] md:max-w-[460px] lg:max-w-[590px] mx-auto"
+          className="font-display text-3xl md:text-7xl lg:text-8xl font-bold leading-tight mb-6 tracking-[0.02em]"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}>
