@@ -46,11 +46,11 @@ const HeroSection = () => {
 
         <motion.img
 
-          alt="Endless XR"
-          className="h-14 md:h-[7.5rem] lg:h-[8.75rem] mx-auto mb-1"
+          alt="SpacifyU"
+          className="h-14 md:h-[7.5rem] lg:h-[8.75rem] w-auto max-w-full mx-auto mb-1"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.05 }} src="/lovable-uploads/1f79a93a-2a71-4450-a0fc-f39d97e3c4c5.png" />
+          transition={{ duration: 0.6, delay: 0.05 }} src={spacifyuLogo.url} />
         
 
         <motion.h1
