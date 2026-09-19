@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
-import spacifyuLogo from "@/assets/spacifyu-logo.png.asset.json";
+import spacifyuLogo from "@/assets/spacifyu-logo.webp";
 import SubscribeModal from "@/components/SubscribeModal";
 
 const APP_STORE_URL = "https://apps.apple.com/us/app/endlessxr/id6751106381";
@@ -50,7 +50,7 @@ const HeroSection = () => {
           className="h-14 md:h-[7.5rem] lg:h-[8.75rem] w-auto max-w-full mx-auto mb-1"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.05 }} src={spacifyuLogo.url} />
+          transition={{ duration: 0.6, delay: 0.05 }} src={spacifyuLogo} />
         
 
         <motion.h1
